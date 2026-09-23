@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('anguler-tutorial');
+  name = 'Ashish';
+  email ='ashishkrgupta.7890@gmail.com';
+  phone =12345678654;
+
 }
