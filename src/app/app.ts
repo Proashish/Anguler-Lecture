@@ -8,9 +8,17 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('anguler-tutorial');
-  name = 'Ashish';
-  email ='ashishkrgupta.7890@gmail.com';
-  phone =12345678654;
+  
+  name ="Anguler Tutorial";
+  Flag = false;
+  count =5;
+  price = 1000;
+  username = "Ashish";
+  isLoggedIn = true;
+  title = signal("Welcome to Anguler Tutorial");
+
+  getUser() {
+    return "Ashish";
+  }
 
 }
