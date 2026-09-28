@@ -1,0 +1,11 @@
+<p>event works!</p>
+
+<button (click)="incrementCount()">Increment Count</button>
+<p>Count: {{ count() }}</p>
+
+
+<button (click) ="showEvent($event)">Show Event</button>
+
+<input (input) ="updateUser($event.target.value)" placeholder="Enter your name" />
+
+<p>Hello {{ username }}</p>
